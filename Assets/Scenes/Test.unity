@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 05f8a44a983b1804a9c5ae38c1c01f5d, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 61a810c628ddfba498216466619051d9, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 94c2934b06ee85447a19e541ac5a1ca5, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh66356
+  m_Name: pb_Mesh52048
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1105,7 +1105,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh65674
+  m_Name: pb_Mesh51878
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -18177,7 +18177,7 @@ MonoBehaviour:
   renderSettingsRTPVHDR: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  lastBakeTime: 138
+  lastBakeTime: 162
   enlightenWarningShown: 0
   enlightenWarningShown2: 0
   uniqueLights:
@@ -19344,7 +19344,9 @@ MonoBehaviour:
     - Ceiling_lights_lo
     padding: e4000000
     unwrapper: 00000000
-  maps: []
+  maps:
+  - {fileID: 2800000, guid: a30db13c49754054296c11aa11031936, type: 3}
+  - {fileID: 2800000, guid: 269b6eb6b21d0cd4f9b58fd957c39efd, type: 3}
   masks: []
   dirMaps: []
   rnmMaps0: []
@@ -20069,7 +20071,7 @@ MonoBehaviour:
   bakedScaleOffsetTerrain: []
   assetList: []
   uvOverlapAssetList: 
-  idremap: 
+  idremap: 0000000001000000
   usesRealtimeGI: 0
   emptyDirectionTex: {fileID: 0}
   anyVolumes: 0
