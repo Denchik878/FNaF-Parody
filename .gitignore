@@ -72,7 +72,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Exclude the 'bakery' folder
-assets/bakery/
 Assets/Editor/**/*.dll
 Assets/Editor/**/*.pdb
 Assets/Editor/**/*.meta
