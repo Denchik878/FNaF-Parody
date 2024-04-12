@@ -75,3 +75,4 @@ crashlytics-build.properties
 Assets/Editor/**/*.meta
 Assets/Editor/Temp/
 
+Assets/Editor/x64/Bakery/cudnn64_7.dll
