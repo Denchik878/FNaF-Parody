@@ -25,7 +25,7 @@ public class EnemyNode : MonoBehaviour
     }
     private void Start()
     {
-        randomTime = UnityEngine.Random.Range(2, 5);
+        randomTime = UnityEngine.Random.Range(minTime, maxTime);
         if (currentEnemy != null)
         {
             currentEnemy.transform.position = transform.position;
