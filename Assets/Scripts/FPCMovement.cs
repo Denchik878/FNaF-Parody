@@ -7,11 +7,11 @@ public class FPCMovement : StateMachineBehaviour
     private Animator animator;
     public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (Input.mousePosition.x < Screen.width / 6)
+        if (Input.mousePosition.x < Screen.width / 6 && stateInfo.normalizedTime > 1)
         {
             animator.SetTrigger("Left");
         }
-        if (Input.mousePosition.x > Screen.width / 6 * 5)
+        if (Input.mousePosition.x > Screen.width / 6 * 5 && stateInfo.normalizedTime > 1)
         {
             animator.SetTrigger("Right");
         }
