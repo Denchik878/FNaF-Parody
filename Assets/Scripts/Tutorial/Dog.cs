@@ -1,9 +1,12 @@
-﻿public class Dog
+﻿public class Dog : Animal
 {
-    public int age;
-    public string name;
     public Dog father;
-    public Cat enemy;
+    public Animal enemy;
+    public Dog(int age, string name)
+    {
+        this.age = age;
+        this.name = name;
+    }
 
     public override string ToString()
     {

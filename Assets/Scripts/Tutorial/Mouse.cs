@@ -1,7 +1,7 @@
-﻿public class Cat : Animal
+﻿public class Mouse : Animal
 {
     public Animal enemy;
-    public Cat(int age, string name)
+    public Mouse(int age, string name)
     {
         this.age = age;
         this.name = name;

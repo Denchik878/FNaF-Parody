@@ -5,23 +5,29 @@ using UnityEngine;
 
 public class Tutorial : MonoBehaviour
 {
+    public int a;
+    public int b;   
     private void Start()
     {
-        Cat cat = new Cat();
-        cat.age = 3;
-        cat.name = "Пушыстый ";
+        Cat cat = new Cat(3, "Пушыстый ");
 
-        Dog dog = new Dog();
-        dog.age = 5;
-        dog.name = "Rex";
-        
+        Cat cat2 = new Cat(6, "Адольф");
+        cat.enemy = cat2;
 
-        Dog dog2 = new Dog();
-        dog2.age = 3;
-        dog2.name = "Tex";
+        Dog dog = new Dog(5, "Rex");
+        dog.enemy = cat2;
+        cat2.enemy = dog;
+
+        Dog dog2 = new Dog(3, "Tex");
         dog2.father = dog;
         dog2.enemy = cat;
 
-        print(dog2.father);
+        Mouse mouse = new Mouse(2, "Maus");
+
+        print(SumNumbers(a, b));
+    }
+    private int SumNumbers(int a, int b)
+    {
+        return (a + b) * (a - b);
     }
 }
